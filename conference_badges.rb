@@ -16,7 +16,7 @@ def assign_rooms(names)
   newarr.push("Hello, #{name}! You'll be assigned to room #{counter}!")
   counter +=1 
   end 
-  newarr 
+  newarr.to_s 
 end 
 
 
