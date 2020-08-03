@@ -51,7 +51,10 @@ def printer(array)
     puts id 
   end 
   
-  
+  assign_rooms(array).each do |num|
+    puts num
+    end 
+
 end 
 
 
