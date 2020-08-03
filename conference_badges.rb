@@ -19,6 +19,15 @@ def assign_rooms(names)
   newarr
 end 
 
+def printer
+puts "#{batch_badge_creator}"  
+end 
+
+
+
+
+
+
 
 
 
