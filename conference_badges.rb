@@ -24,6 +24,10 @@ def printer(array)
 puts "#{batch_badge_creator}"  
 end 
 
+  array.each do |student|
+    puts "#{assign_rooms}"
+  end 
+
 end 
 
 
