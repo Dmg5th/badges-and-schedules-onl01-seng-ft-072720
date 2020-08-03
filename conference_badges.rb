@@ -7,6 +7,7 @@ def batch_badge_creator(array)
   array.collect do |name|
      newarr.push("Hello, my name is #{name}.")
    end 
+  end 
 
 
 
