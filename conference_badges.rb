@@ -11,12 +11,12 @@ end
 
 def assign_rooms(names)
   newarr = []
-  counter = 0
+  counter = 1
   names.each do |name|
   newarr.push("Hello, #{name}! You'll be assigned to room #{counter}!")
   counter +=1 
   end 
-  newarr.to_s 
+  newarr
 end 
 
 
