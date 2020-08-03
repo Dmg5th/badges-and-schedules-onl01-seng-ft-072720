@@ -11,7 +11,7 @@ end
 
 def assign_rooms(names)
   counter = 1 
-  names.map |name|
+  names.map do |name|
   "Hello, #{name}! You'll be assigned to room #{counter}!"
   counter +=1 
   end 
