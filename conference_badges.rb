@@ -19,8 +19,11 @@ def assign_rooms(names)
   newarr
 end 
 
-def printer
+def printer(array)
+  array.each do |name|
 puts "#{batch_badge_creator}"  
+end 
+
 end 
 
 
